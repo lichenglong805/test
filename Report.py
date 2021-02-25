@@ -5,7 +5,7 @@
 # ​ text文本相对于html来说过于简陋，与控制台输出的没有什么区别，也几乎没有人使用，这里不作演示，使用方法是一样的。我们结合前面的测试套件来演示一下如何生成html格式的测试报告：
 # run_test.py，与test_register.py、register.py同一目录下
 import unittest, time
-from bzs import BZSCS, BZSClock
+import BZSCS
 from HTMLTestRunner import HTMLTestRunner
 import os
 import smtplib
